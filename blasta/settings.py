@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mickkav-ciproject4resta-9zkqxlwbcmk.ws-eu105.gitpod.io', 'ci-project4-restaurant-booking.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['ci-project4-restaurant-booking.herokuapp.com', 'localhost']
 
 
 # Application definition
