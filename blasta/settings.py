@@ -29,8 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ci-project4-restaurant-booking-c617027b7c23.herokuapp.com', 'localhost']
-
+ALLOWED_HOSTS = ['8000-mickkav-ciproject4resta-9zkqxlwbcmk.ws-eu105.gitpod.io', 'localhost']
 
 # Application definition
 
@@ -44,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'blasta',
+    'django_summernote',
+    'booking',
 ]
 
 MIDDLEWARE = [
