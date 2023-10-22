@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-section about-heading">
+    <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="static/assets/img/staff.jpg" alt="..." />
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Determined to deliver</span>
+                            <span class="section-heading-lower">About Our staff</span>
+                        </h2>
+                        <p>Our staff are dedicated to delivering the optimum experience with great interest, making you feel well attended to and all queries answered.</p>
+                        <p class="mb-0">
+                            We guarantee that you will fall in
+                            <em>lust</em>
+                            with our decadent blends the moment you walk inside whether you are new to Irish food or not. Join us on this adventure, and come try some of our most loved recipes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="cta-inner bg-faded text-center rounded">
+                    <h2 class="section-heading mb-5">
+                        <span class="section-heading-upper">Reserve your booking</span>
+                        <span class="section-heading-lower">Bígí Linn</span>
+                    </h2>
+                    <form class="mt-5">
+                        <div class="form-group ml-1 mr-1">
+                            <label for="">Date</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Time</label>
+                            <input type="time" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Number of Guests</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Any other Information</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="cta-inner bg-faded text-center rounded">
+                    <h2 class="section-heading mb-5">
+                        <span class="section-heading-upper">Check our operating hours</span>
+                        <span class="section-heading-lower">We're Open</span>
+                    </h2>
+                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                        <li class="list-unstyled-item list-hours-item d-flex today">
+                            Monday
+                            <span class="ms-auto">Closed</span>
+                        </li>
+                        <li id="not-today" class="list-unstyled-item list-hours-item d-flex">
+                            Tuesday - Saturday
+                            <span class="ms-auto">11:00 AM to 10:00 PM</span>
+                        </li>
+                        <li class="list-unstyled-item list-hours-item d-flex">
+                            Sunday
+                            <span class="ms-auto">12:00 AM to 8:00 PM</span>
+                        </li>
+                    </ul>
+                    <p class="address mb-5">
+                        <em>
+                            <strong>1116 Ard Rí Street</strong>
+                            <br />
+                            Dublin 1, Ireland
+                        </em>
+                    </p>
+                    <p class="mb-0">
+                        <small><em>Call Anytime</em></small>
+                        <br />
+                        (317) 585-8468
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{%endblock%}
